@@ -16,7 +16,7 @@ exports.handler = async (event) => {
     try {
         const response = await fetch(url, {
             headers: {
-                "Authorization": `Bearer pat-na1-c6075ea8-0046-4e59-a086-f3cb13525fc0`,
+                "Authorization": `Bearer $$`,
                 "Content-Type": "application/json"
             }
         });
